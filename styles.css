@@ -1,5 +1,5 @@
 /* Lines 2 to 90 is styling for header section on index.html*/
-/* * {
+ /* * {
     border: 3px solid black
   } */
 
@@ -16,7 +16,6 @@ body {
 .hero-container {
     display: flex;
     flex-direction: column;
-
     max-width: 800px;
 }
 
@@ -90,12 +89,64 @@ button {
 }
 
 button.sign-up-button {
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #3882F6;
+    border: 1px solid #3882F6;
     flex: initial;
 }
 
 img {
     width: 450px;
     height: 200px;
+}
+
+/* Below starts styling for class random-section */
+
+.random-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 30px 0 30px;
+    text-align: center;
+}
+
+.random-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    margin: 30px 0 30px;
+}
+
+.pic img {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.pic-text {
+    text-align: center;
+    max-width: 150px;
+}
+/* Below starts styling for class testimonial section */
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote-container {
+    margin: 60px 0 60px;
+    max-width: 800px;
 }
