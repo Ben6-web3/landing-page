@@ -1,7 +1,7 @@
 /* Lines 2 to 90 is styling for header section on index.html*/
-* {
+/* * {
     border: 3px solid black
-  }
+  } */
 
 body {
     font-family: "roboto", sans-serif;
@@ -10,8 +10,14 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
+}
+
+.hero-container {
+    display: flex;
     flex-direction: column;
-    align-content: center;
+
+    max-width: 800px;
 }
 
 .logo {
@@ -73,7 +79,7 @@ ul {
 
 .logo-links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 15px 0 0;
 }
 
