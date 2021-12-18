@@ -1,5 +1,5 @@
 /* Lines 2 to 90 is styling for header section on index.html*/
- /* * {
+  /* * {
     border: 3px solid black
   } */
 
@@ -7,7 +7,8 @@ body {
     font-family: "roboto", sans-serif;
 }
 
-.header {
+.header,
+.footer {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -45,12 +46,13 @@ body {
 
 .logo,
 .hero-title,
-.sign-up-button {
+.sign-up {
     color: #F9FAF8;
 }
 
 .hero-links,
-.hero-text {
+.hero-text,
+.footer {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -88,7 +90,7 @@ button {
     align-self: flex-start;
 }
 
-button.sign-up-button {
+button.sign-up {
     background: #3882F6;
     border: 1px solid #3882F6;
     flex: initial;
@@ -149,4 +151,40 @@ img {
 .quote-container {
     margin: 60px 0 60px;
     max-width: 800px;
+}
+/* Below starts styling for class call-to-action */
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    display: flex;
+    max-width: 1000px;
+    padding: 30px 50px;
+    margin: 60px 0 60px;
+    border-radius: 4px;
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.cta-title {
+    font-weight: bold;
+}
+
+.modal .sign-up {
+    border: 1px solid #F9FAF8;
+    background: #3882F6;
+    align-self: center;
+}
+
+.footer {
+    padding: 20px;
 }
