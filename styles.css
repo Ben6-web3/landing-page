@@ -1,5 +1,6 @@
-/* Lines 2 to 90 is styling for header section on index.html*/
-  /* * {
+/* Lines 7 to 104 is styling for header section on index.html */
+  
+/* * {
     border: 3px solid black
   } */
 
@@ -102,8 +103,7 @@ img {
     height: 200px;
 }
 
-/* Below starts styling for class random-section */
-
+/* Lines 107 to 133 is styling for random-section on index.html */
 .random-title {
     font-size: 36px;
     font-weight: 900;
@@ -131,7 +131,8 @@ img {
     text-align: center;
     max-width: 150px;
 }
-/* Below starts styling for class testimonial section */
+
+/* Lines 136 to 156 is styling for testimonial section on index.html */
 .testimonial {
     background-color: #E5E7EB;
     display: flex;
@@ -153,7 +154,8 @@ img {
     margin: 80px 0 80px;
     max-width: 800px;
 }
-/* Below starts styling for class call-to-action */
+
+/* Lines 159 to 192 is styling for call to action and footer section on index.html */
 .call-to-action {
     display: flex;
     justify-content: center;
